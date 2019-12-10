@@ -1,0 +1,126 @@
+// Utf-8
+@charset "utf-8";
+
+@import "_base.scss";
+
+@import "_print.scss";
+
+@import "_elements.scss";
+
+@import "_buttons.scss";
+
+html {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+* {
+  color: black !important;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  background: none;
+  page-break-after: avoid;
+  page-break-before: avoid;
+  font-size: 16pt;
+  width: 148mm;
+  height: 209mm;
+}
+
+@page {
+  size: A5;
+  margin: 0;
+}
+
+
+input[type="text"], input[type="tel"], input[type="email"]   {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+  position: fixed;
+  padding: 0;
+  font-size: 15pt;
+
+  @media print {
+    background: none;
+    background-color: transparent !important;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: fixed;
+  cursor: pointer;
+  user-select: none;
+
+  & input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5mm;
+  width: 5mm;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* When the checkbox is checked, add a blue background */
+// .container input:checked~.checkmark {
+//   // background-color: #2196F3;
+// }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "X";
+  display: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-variant: all-petite-caps;
+  font-size: 13pt;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+// .container .checkmark:after {
+//   // left: 9px;
+//   // top: 5px;
+//   // width: 5px;
+//   // height: 10px;
+//   // border: solid red;
+//   // border-width: 0 3px 3px 0;
+//   // // transform: rotate(45deg);
+// }
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

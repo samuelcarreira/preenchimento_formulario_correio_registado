@@ -1,0 +1,41 @@
+@media print {
+    body {
+        background: none;
+        color: black !important;
+        font-size: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .nav,
+    button,
+    header p {
+        display: none;
+    }
+    h2,
+    pre,
+    code {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    header {
+        padding: 0 0 10px 0;
+    }
+    code,
+    .support {
+        font-size: 10px;
+    }
+
+    @page{
+        margin:-1em;
+        padding:0;
+        width: 149mm;
+        height: 211mm;
+    }
+
+    input[type="text"] {
+        background-color: transparent !important;
+      }
+}

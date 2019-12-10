@@ -1,0 +1,39 @@
+#buttons-container {
+    position: fixed;
+    top: 197mm;
+    left: 98mm;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 2pt 7pt;
+    border-radius: 12pt;
+
+    &>button,
+    a {
+        background: transparent;
+        height: 25pt;
+        width: 25pt;
+        display: inline-flex;
+        border: none;
+        transition: 0.3s linear;
+        outline: none;
+
+        & :hover {
+            transform: scale(1.1);
+        }
+
+        & :active {
+            transform: scale(0.95);
+        }
+
+
+
+        &>svg {
+            height: 18pt;
+            width: 18pt;
+
+            & :hover {
+                transform: scale(1.1);
+                // fill: #cc2229;
+            }
+        }
+    }
+}

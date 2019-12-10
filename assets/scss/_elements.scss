@@ -1,0 +1,319 @@
+$global-x: 6mm;
+
+@mixin position($x, $y) {
+    left: $x;
+    top: $y;
+
+    @media print {
+        left: calc(var(--offset-x) + #{$x});
+        top: calc(var(--offset-y) + #{$y});
+    }
+}
+
+
+#background-form {
+    width: 148mm;
+    position: absolute;
+    z-index: -1;
+}
+
+#print-container {
+    width: 148mm;
+    height: 209mm;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    page-break-after: avoid;
+    page-break-before: avoid;
+    overflow: hidden;
+}
+
+#dest-nome1 {
+    $x: $global-x;
+    $y: 49mm;
+
+    width: 137mm;
+
+    @include position($x, $y);
+}
+
+#dest-morada1 {
+    $x: $global-x;
+    $y: 58.5mm;
+    font-size: 13pt;
+
+    width: 137mm;
+
+    @include position($x, $y);
+}
+
+#dest-codigo-postal1 {
+    $x: 23mm;
+    $y: 65mm;
+
+    width: 33mm;
+    letter-spacing: 3.7pt;
+    word-spacing: -6pt;
+
+
+    @include position($x, $y);
+}
+
+#dest-localidade1 {
+    $x: 58mm;
+    $y: 65mm;
+
+    width: 84.5mm;
+
+    @include position($x, $y);
+}
+
+#dest-nome2 {
+    $x: $global-x;
+    $y: 81mm;
+
+    width: 137mm;
+
+    @include position($x, $y);
+}
+
+#dest-morada2 {
+    $x: $global-x;
+    $y: 90.5mm;
+    font-size: 13pt;
+
+    width: 137mm;
+
+    @include position($x, $y);
+}
+
+#dest-codigo-postal2 {
+    $x: 23mm;
+    $y: 96.5mm;
+
+    width: 33mm;
+    letter-spacing: 3.7pt;
+    word-spacing: -6pt;
+
+    @include position($x, $y);
+}
+
+#dest-localidade2 {
+    $x: 58mm;
+    $y: 96.5mm;
+
+    width: 84.5mm;
+
+    @include position($x, $y);
+}
+
+#radio-nacional {
+    $x: 4.6mm;
+    $y: 105mm;
+
+    @include position($x, $y);
+}
+
+#radio-internacional {
+    $x: 30mm;
+    $y: 105mm;
+
+    @include position($x, $y);
+}
+
+#radio-simples {
+    $x: 63mm;
+    $y: 105mm;
+
+    @include position($x, $y);
+}
+
+#radio-registado {
+    $x: 100mm;
+    $y: 105mm;
+
+    @include position($x, $y);
+}
+
+#check-prepago {
+    $x: 4.6mm;
+    $y: 113mm;
+
+    @include position($x, $y);
+}
+
+#check-livro {
+    $x: 30mm;
+    $y: 113mm;
+
+    @include position($x, $y);
+}
+
+#check-citacaoviapostal {
+    $x: 63mm;
+    $y: 113mm;
+
+    @include position($x, $y);
+}
+
+#check-notificacaoviapostal {
+    $x: 100mm;
+    $y: 113mm;
+
+    @include position($x, $y);
+}
+
+
+#check-saco {
+    $x: 4.6mm;
+    $y: 119.5mm;
+
+    @include position($x, $y);
+}
+
+#check-outro {
+    $x: 30mm;
+    $y: 119.5mm;
+
+    @include position($x, $y);
+}
+
+#text-outro {
+    visibility: hidden;
+    width: 26mm;
+
+    $x: 36mm;
+    $y: 119mm;
+
+    @include position($x, $y);
+}
+
+#check-citacaoviapostal2 {
+    $x: 63mm;
+    $y: 119.5mm;
+
+    @include position($x, $y);
+}
+
+#check-notificacaoviapostalsimples {
+    $x: 100mm;
+    $y: 119.5mm;
+
+    @include position($x, $y);
+}
+
+
+#check-avisorececao {
+    $x: 4.6mm;
+    $y: 133mm;
+
+    @include position($x, $y);
+}
+#check-entregaproprio {
+    $x: 4.6mm;
+    $y: 139.5mm;
+
+    @include position($x, $y);
+}
+#check-entregadomicilio {
+    $x: 4.6mm;
+    $y: 145.5mm;
+
+    @include position($x, $y);
+}
+
+#check-cob {
+    $x: 36.5mm;
+    $y: 133.5mm;
+
+    @include position($x, $y);
+}
+
+#text-cob {
+    // visibility: hidden;
+    width: 34.5mm;
+    text-align: right;
+    letter-spacing: 2.9pt;
+    word-spacing: -6pt;
+
+    $x: 40mm;
+    $y: 139mm;
+
+    @include position($x, $y);
+}
+
+#check-vd {
+    $x: 78mm;
+    $y: 133.5mm;
+
+    @include position($x, $y);
+}
+
+#text-vd {
+    visibility: hidden;
+    width: 34.5mm;
+    text-align: right;
+    letter-spacing: 2.9pt;
+    word-spacing: -6pt;
+
+    $x: 81.5mm;
+    $y: 139mm;
+
+    @include position($x, $y);
+}
+
+#text-peso {
+    width: 21.5mm;
+
+    $x: 121.5mm;
+    $y: 136.5mm;
+
+    @include position($x, $y);
+}
+
+#text-dts {
+    width: 21.5mm;
+
+    $x: 121.5mm;
+    $y: 146mm;
+
+    @include position($x, $y);
+}
+
+#check-sms {
+    $x: 4.6mm;
+    $y: 158mm;
+
+    @include position($x, $y);
+}
+
+#text-sms {
+    visibility: hidden;
+    width: 38.5mm;
+    text-align: right;
+    letter-spacing: 3pt;
+
+    $x: 25mm;
+    $y: 162.5mm;
+
+    @include position($x, $y);
+}
+
+#check-email {
+    $x: 65mm;
+    $y: 158mm;
+
+    @include position($x, $y);
+}
+
+#text-email {
+    visibility: hidden;
+    width: 54mm;
+    font-size: 12pt;
+
+    $x: 89mm;
+    $y: 161.5mm;
+
+    @include position($x, $y);
+}

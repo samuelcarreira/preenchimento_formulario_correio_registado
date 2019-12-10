@@ -1,0 +1,29 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true,     
+    "liveSassCompile.settings.includeItems": [
+        "/assets/scss/_buttons.scss",
+        "/assets/scss/_elements.scss",
+        "/assets/scss/_base.scss",
+        "/assets/scss/_variables.scss",
+        "/assets/scss/main.scss"
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "Chrome >= 60"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/styles"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/assets/styles"
+        }
+    ],
+    "liveServer.settings.port": 5502,
+    "files.autoSaveDelay": 2000
+}
