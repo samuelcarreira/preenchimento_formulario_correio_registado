@@ -5,6 +5,8 @@ Página Web para auxiliar o preenchimento e impressão dos Formulários de Corre
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 
+## http://samuelcarreira.com/correioregistado/
+
 ## Funcionalidades
  - Impressão rápida dos formulários com uma fonte legível
  - Armazenamento local dos últimos dados introduzidos (nome e morada) de forma a facilitar o preenchimento futuro (ver FAQ)
@@ -33,8 +35,6 @@ Decidi criar esta página simples porque a minha caligrafia não é das melhores
 ---
 
 ## Licença
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2019 © <a href="http://samuelcarreira.com" target="_blank">Samuel Carreira</a>.

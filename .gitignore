@@ -1,4 +1,6 @@
 sitemap.xml
 assets/imgs/formulario_scan.png
 tsconfig.json
-assets/styles/*
+assets/styles/*.map
+assets/styles/*.css
+!assets/styles/*.min.css
