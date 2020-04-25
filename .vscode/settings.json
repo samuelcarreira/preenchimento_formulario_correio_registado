@@ -25,5 +25,9 @@
         }
     ],
     "liveServer.settings.port": 5502,
-    "files.autoSaveDelay": 2000
+    "files.autoSaveDelay": 2000,
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/package-lock.json": true
+    }
 }

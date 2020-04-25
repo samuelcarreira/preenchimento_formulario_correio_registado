@@ -1,0 +1,81 @@
+#buttons-container {
+  margin-top: 5px;
+  width: 218px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 2pt 7pt;
+  border-radius: 12pt;
+  z-index: 3;
+
+  &>button,
+  a {
+    background: transparent;
+    height: 25pt;
+    width: 25pt;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s linear;
+    outline: none;
+    cursor: pointer;
+
+    & :hover {
+      transform: scale(1.05);
+    }
+
+    & :active {
+      transform: scale(0.95);
+    }
+
+    &>picture {
+      height: 18pt;
+      width: 18pt;
+    }
+  }
+}
+
+.btn-close-modal {
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  opacity: 0.5;
+  font-size: 24px;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  & :active {
+    transform: scale(0.95);
+  }
+}
+
+#btn-clearstorage {
+  // background: #cc2229;
+  background: none;
+
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 9px 15px;
+    font-weight: 600;
+    font-size: 11pt;
+    letter-spacing: 0.2pt;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.07);
+    font-family: $font-family-sans-serif;
+    transition: opacity 0.25s;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.12);
+    }
+}

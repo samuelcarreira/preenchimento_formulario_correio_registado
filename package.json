@@ -1,0 +1,84 @@
+{
+  "name": "preenchimento_formulario_correio_registado",
+  "productName": "Preenchimento de Formulários de Correio Registado",
+  "version": "1.0.0",
+  "description": "Página Web para auxiliar o preenchimento e impressão dos Formulários de Correio Registado dos CTT. Basta preencher os campos, colocar o formulário na impressora e imprimir!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelcarreira/preenchimento_formulario_correio_registado.git"
+  },
+  "keywords": [
+    "correio",
+    "formulario"
+  ],
+  "author": "Samuel Carreira <samuelcarreira@outlook.com> (http://www.samuelcarreira.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelcarreira/preenchimento_formulario_correio_registado/issues"
+  },
+  "homepage": "https://github.com/samuelcarreira/preenchimento_formulario_correio_registado#readme",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production --progress --display-error-details",
+    "check-eslint-config": "eslint --print-config .eslintrc | eslint-config-prettier-check",
+    "check-stylelint-config": "stylelint-config-prettier-check",
+    "lint-code": "eslint 'src/scripts/**/*.js'",
+    "lint-style": "stylelint 'src/stylesheets/**/*.{css,scss}'",
+    "analyze": "webpack-bundle-analyzer ./stats.json"
+  },
+  "dependencies": {
+    "dialog-polyfill": "^0.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/runtime": "^7.9.2",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "csso-webpack-plugin": "^2.0.0-beta.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.0",
+    "normalize.css": "^8.0.1",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.0.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "stylelint": "^13.3.3",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.17.1",
+    "webpack": "^4.43.0",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2",
+    "webpack-stats-plugin": "0.3.1",
+    "clean-webpack-plugin": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

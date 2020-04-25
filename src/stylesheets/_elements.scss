@@ -10,7 +10,6 @@ $global-x: 6mm;
     }
 }
 
-
 #background-form {
     width: 148mm;
     position: absolute;
@@ -231,7 +230,7 @@ $global-x: 6mm;
 }
 
 #text-cob {
-    // visibility: hidden;
+    visibility: hidden;
     width: 34.5mm;
     text-align: right;
     letter-spacing: 2.9pt;

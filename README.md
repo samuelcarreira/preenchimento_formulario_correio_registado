@@ -5,7 +5,7 @@ Página Web para auxiliar o preenchimento e impressão dos Formulários de Corre
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 
-## http://samuelcarreira.com/correioregistado/
+## https://samuelcarreira.com/correioregistado/
 
 ## Funcionalidades
  - Impressão rápida dos formulários com uma fonte legível
@@ -22,7 +22,7 @@ Decidi criar esta página simples porque a minha caligrafia não é das melhores
 
 ## FAQ
 - **Os meus dados pessoais são armazenados de forma segura?**
-    - Não existe nenhum armazenamento remoto dos seus dados. Conforme é possível ver no código-fonte, todos os dados são armazenados no browser local (o que quer dizer que se mudar de browser/fizer limpeza dos dados, perderei todos os dados) através da funcionalidade de LocalStorage (mais informações https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage )
+    - Não existe nenhum armazenamento remoto dos seus dados. Conforme é possível ver no código-fonte, todos os dados são armazenados no browser local  através da funcionalidade de LocalStorage (mais informações https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage ), o que quer dizer que se mudar de browser/fizer limpeza dos dados, perderá todos os dados
 
 
 - **Experimentei a aceder à página noutro dispositivo e não tenho os dados preenchidos**
@@ -37,4 +37,4 @@ Decidi criar esta página simples porque a minha caligrafia não é das melhores
 ## Licença
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="http://samuelcarreira.com" target="_blank">Samuel Carreira</a>.
+- Copyright 2020 © <a href="http://samuelcarreira.com" target="_blank">Samuel Carreira</a>.
