@@ -153,8 +153,8 @@ function checkWebkit() {
   checkWebkit();
   loadSettings();
 
-  const dialog = document.querySelector('dialog');
-  dialogPolyfill.registerDialog(dialog);
+  dialogPolyfill.registerDialog(document.getElementById('dialog-about'));
+  dialogPolyfill.registerDialog(document.getElementById('dialog-settings'));
 
   const dialogAbout = document.getElementById('dialog-about');
   dialogAbout.showModal();
