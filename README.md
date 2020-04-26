@@ -4,7 +4,9 @@ Página Web para auxiliar o preenchimento e impressão dos Formulários de Corre
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## https://samuelcarreira.com/correioregistado/
+![Sample](https://raw.githubusercontent.com/samuelcarreira/preenchimento_formulario_correio_registado/mockup-browser.png)
+
+## Testar aqui: http://samuelcarreira.com/correioregistado/
 
 
 ## Funcionalidades
@@ -22,7 +24,7 @@ Decidi criar esta página simples porque a minha caligrafia não é das melhores
 
 ## FAQ
 - **Os meus dados pessoais são armazenados de forma segura?**
-    - Não existe nenhum armazenamento remoto dos seus dados. Conforme é possível ver no código-fonte, todos os dados são armazenados no browser local  através da funcionalidade de LocalStorage (mais informações https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage ), o que quer dizer que se mudar de browser/fizer limpeza dos dados, perderá todos os dados
+    - **Não existe nenhum armazenamento remoto dos seus dados**. Conforme é possível ver no código-fonte, todos os dados são armazenados no browser local  através da funcionalidade de LocalStorage (mais informações https://developer.mozilla.org/pt-BR/docs/Web/API/Window/Window.localStorage ), o que quer dizer que se mudar de browser/fizer limpeza dos dados, perderá todos os dados
 
 
 - **Experimentei a aceder à página noutro dispositivo e não tenho os dados preenchidos**
@@ -34,7 +36,9 @@ Decidi criar esta página simples porque a minha caligrafia não é das melhores
 
 ---
 
-## Licença
+## Créditos
+Browser mockup - https://www.behance.net/gallery/19637421/Freebie-Flat-Browser-Mockup
 
+## Licença
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2020 © <a href="http://samuelcarreira.com" target="_blank">Samuel Carreira</a>.

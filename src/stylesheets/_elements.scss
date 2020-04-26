@@ -45,7 +45,7 @@ $global-x: 6mm;
 #dest-morada1 {
   $x: $global-x;
   $y: 58.5mm;
-  font-size: 13pt;
+  font-size: 12.5pt;
 
   width: 137mm;
 
@@ -316,10 +316,10 @@ $global-x: 6mm;
 #text-email {
   visibility: hidden;
   width: 54mm;
-  font-size: 12pt;
+  font-size: 9pt;
 
   $x: 89mm;
-  $y: 161.5mm;
+  $y: 163mm;
 
   @include position($x, $y);
 }

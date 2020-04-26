@@ -131,6 +131,22 @@ document.getElementById('y-adjust').onchange = function () {
   localStorage.setItem('y', this.value);
 };
 
+document.getElementById('dest-morada1').addEventListener('change', function () {
+  if (this.value.length > 46) {
+    this.style.fontSize = '12pt';
+  } else {
+    this.style.fontSize = '13pt';
+  }
+});
+
+document.getElementById('dest-morada2').addEventListener('change', function () {
+  if (this.value.length > 46) {
+    this.style.fontSize = '12pt';
+  } else {
+    this.style.fontSize = '13pt';
+  }
+});
+
 document.getElementById('checkbox-savedata-settings').addEventListener('change', (event) => {
   document.getElementById('checkbox-savedata').checked = event.target.checked;
 });

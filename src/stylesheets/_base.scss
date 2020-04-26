@@ -103,13 +103,11 @@ input[type="email"] {
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-  content: "X";
+  content: '\00d7';
   display: none;
   text-align: center;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-variant: all-petite-caps;
-  font-size: 13pt;
+  font-weight: 900;
+  font-size: 16pt;
   line-height: 1;
 }
 

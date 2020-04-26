@@ -1,10 +1,6 @@
 
 # Created by https://www.gitignore.io/api/node,macos,windows
 
-### Custom ###
-build
-stats.json
-
 ### macOS ###
 *.DS_Store
 .AppleDouble
@@ -120,3 +116,5 @@ $RECYCLE.BIN/
 *.map
 
 .vscode/
+
+build/
