@@ -4,7 +4,7 @@ Página Web para auxiliar o preenchimento e impressão dos Formulários de Corre
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## http://samuelcarreira.github.io/preenchimento_formulario_correio_registado ou https://samuelcarreira.com/correioregistado/
+## https://samuelcarreira.com/correioregistado/
 
 
 ## Funcionalidades
