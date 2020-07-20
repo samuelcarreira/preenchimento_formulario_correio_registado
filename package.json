@@ -1,7 +1,7 @@
 {
   "name": "preenchimento_formulario_correio_registado",
   "productName": "Preenchimento de Formulários de Correio Registado",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Página Web para auxiliar o preenchimento e impressão dos Formulários de Correio Registado dos CTT. Basta preencher os campos, colocar o formulário na impressora e imprimir!",
   "repository": {
     "type": "git",
